@@ -1,5 +1,7 @@
 ### CircleCI CLI error repro
 
+Jobs in workflows that have `only`-branch filters they are removed when running `circleci config process` on a packed config. Note that this does not happen if the branch filter is `ignore`.
+
 To reproduce, run the following: 
 
 ```bash
