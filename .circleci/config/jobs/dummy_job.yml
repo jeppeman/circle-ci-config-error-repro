@@ -1,0 +1,3 @@
+executor: dummy
+steps:
+  - run: echo Hello

@@ -1,0 +1,17 @@
+jobs:
+  - dummy_job:
+      name: "Test with only branch filter"
+      filters:
+        branches:
+          only:
+            - master
+
+  - dummy_job:
+      name: "Test with ignore branch filter"
+      filters:
+        branches:
+          ignore:
+            - master
+
+  - dummy_job:
+      name: "Test without branch filter"

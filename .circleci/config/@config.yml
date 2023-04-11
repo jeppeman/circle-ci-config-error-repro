@@ -1,0 +1,9 @@
+version: 2.1
+
+executors:
+  dummy:
+    docker:
+      - image: ubuntu-latest
+
+workflows:
+  version: 2
